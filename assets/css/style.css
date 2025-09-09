@@ -11,10 +11,6 @@
 
 }
 
-.bg-lightblue {
-    background-color: var(--lightblue);
-}
-
 /* generali */
 
 body {
@@ -58,13 +54,49 @@ button {
 .task-button {
     color: var(--white);
     margin: 10px 0px 10px 70px;
+    background-color: var(--lightblue);
 }
 
 .section-button {
     color: #c7cdd1;
 }
+
 .separator{
     border: 3px solid var(--gray);
     width: 100%;
     padding: 30px;
 }
+/* task */
+
+/* colori span */
+
+.bg-lightblue{
+background-color: var(--lightblue);
+}
+.bg-purple{
+    background-color: var(--purple);
+}
+.bg-green{
+    background-color: var(--green);
+}
+.bg-orange{
+    background-color: var(--orange);
+}
+li{
+    list-style-type: none;
+    padding: 5px;
+}
+
+.type{font-size: 12px;
+    padding: 5px;
+    border-radius: 30%;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.check{
+    color: green;
+    border:1px solid green;
+    border-radius: 50%;
+}
+
