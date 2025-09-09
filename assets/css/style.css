@@ -11,21 +11,28 @@
 
 }
 
+.bg-lightblue {
+    background-color: var(--lightblue);
+}
 
 /* generali */
 
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
+    background-color: var(--gray);
 }
 
-.container{
+.container {
     width: 80%;
     margin: 0 auto;
+    background-color: #fff;
 }
+
 /* logo section */
 
 .logo-section {
+    margin-bottom: 30px;
     padding: 15px;
 }
 
@@ -41,7 +48,17 @@ body {
 /* main */
 
 /* button */
-button{
-
+button {
+    border: 1px solid var(--gray);
+    border-radius: 5px;
+    padding: 5px 10px;
 }
- 
+
+.task-button {
+    color: var(--white);
+    margin: 10px 0px 10px 70px;
+}
+
+.section-button {
+    color: #c7cdd1;
+}
