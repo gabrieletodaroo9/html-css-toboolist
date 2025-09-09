@@ -1,7 +1,7 @@
 :root {
     --white: #fff;
     --black: #000;
-    --gray: #c7cdd1;
+    --gray: #F0F0F0;
     --lightblue: #47adf1;
     --green: #64c0a9;
     --purple: #9c72e4;
@@ -9,6 +9,32 @@
     --orange: #f29e33;
     --lightgreen: #b0c926;
 
+}
+
+/* colori background */
+
+.bg-lightblue {
+    background-color: var(--lightblue);
+}
+
+.bg-purple {
+    background-color: var(--purple);
+}
+
+.bg-green {
+    background-color: var(--green);
+}
+
+.bg-orange {
+    background-color: var(--orange);
+}
+
+.bg-pink {
+    background-color: var(--pink);
+}
+
+.bg-lightgreen {
+    background-color: var(--lightgreen);
 }
 
 /* generali */
@@ -23,7 +49,7 @@ body {
     width: 70%;
     margin: 0 auto;
     background-color: #fff;
-    padding-bottom: 40px;
+    padding-bottom: 10px;
 }
 
 /* logo section */
@@ -63,60 +89,46 @@ button {
     margin: 15px;
 }
 
-.separator{
+.separator {
     border: 3px solid var(--gray);
     width: 100%;
-    margin-bottom:30px;
+    margin-bottom: 30px;
 }
+
 /* task */
 
-/* colori span */
-
-.bg-lightblue{
-background-color: var(--lightblue);
-}
-.bg-purple{
-    background-color: var(--purple);
-}
-.bg-green{
-    background-color: var(--green);
-}
-.bg-orange{
-    background-color: var(--orange);
-}
-.bg-pink{
-    background-color: var(--pink);
-}
-.bg-lightgreen{
-    background-color:var(--lightgreen);
-}
-li{
+li {
     list-style-type: none;
-    padding: 5px;
+    padding-bottom: 15px;
 }
 
-.type{font-size: 12px;
-    padding: 5px;
-    border-radius: 30%;
+.type {
+    font-size: 12px;
+    padding: 6px;
+    border-radius: 38%;
     color: #fff;
     margin-bottom: 10px;
 }
 
-.check{
-     padding: 2px;
+.check {
+    padding: 2px;
     color: green;
-    border:1px solid green;
+    border: 1px solid green;
     border-radius: 50%;
-    
+
 }
 
-.cross{
+.cross {
     padding: 2px;
     color: red;
-    border:1px solid red;
+    border: 1px solid red;
     border-radius: 50%;
 }
+
 li ul {
     padding: 0;
 }
 
+h2 {
+    margin: 5px 0 15px;
+}
