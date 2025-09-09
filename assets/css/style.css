@@ -23,6 +23,7 @@ body {
     width: 70%;
     margin: 0 auto;
     background-color: #fff;
+    padding-bottom: 40px;
 }
 
 /* logo section */
@@ -64,7 +65,7 @@ button {
 .separator{
     border: 3px solid var(--gray);
     width: 100%;
-    padding: 30px;
+    margin: 30px 0;
 }
 /* task */
 
@@ -81,6 +82,12 @@ background-color: var(--lightblue);
 }
 .bg-orange{
     background-color: var(--orange);
+}
+.bg-pink{
+    background-color: var(--pink);
+}
+.bg-lightgreen{
+    background-color:var(--lightgreen);
 }
 li{
     list-style-type: none;
@@ -100,3 +107,8 @@ li{
     border-radius: 50%;
 }
 
+.cross{
+    color: red;
+    border:1px solid red;
+    border-radius: 50%;
+}
