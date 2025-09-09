@@ -60,12 +60,13 @@ button {
 
 .section-button {
     color: #c7cdd1;
+    margin: 15px;
 }
 
 .separator{
     border: 3px solid var(--gray);
     width: 100%;
-    margin: 30px 0;
+    margin-bottom:30px;
 }
 /* task */
 
@@ -102,13 +103,20 @@ li{
 }
 
 .check{
+     padding: 2px;
     color: green;
     border:1px solid green;
     border-radius: 50%;
+    
 }
 
 .cross{
+    padding: 2px;
     color: red;
     border:1px solid red;
     border-radius: 50%;
 }
+li ul {
+    padding: 0;
+}
+
