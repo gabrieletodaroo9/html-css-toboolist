@@ -48,8 +48,21 @@ body {
 .container {
     width: 70%;
     margin: 0 auto;
-    background-color: #fff;
+    background-color: var(--white);
     padding-bottom: 10px;
+}
+
+li ul {
+    padding: 0;
+}
+
+h2 {
+    margin: 5px 0 15px;
+}
+
+li {
+    list-style-type: none;
+    padding-bottom: 15px;
 }
 
 /* logo section */
@@ -57,7 +70,7 @@ body {
 .logo-section {
     margin-bottom: 30px;
     padding: 15px;
-    background-color: #fff;
+    background-color: var(--white);
 }
 
 .logo {
@@ -97,38 +110,35 @@ button {
 
 /* task */
 
-li {
-    list-style-type: none;
-    padding-bottom: 15px;
-}
-
 .type {
     font-size: 12px;
     padding: 6px;
-    border-radius: 38%;
+    border-radius: 20px;
     color: #fff;
     margin-bottom: 10px;
+    vertical-align: middle;
+}
+
+/* entities */
+
+.entities{ 
+    padding: 2px;
+ display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
 }
 
 .check {
     padding: 2px;
     color: green;
     border: 1px solid green;
-    border-radius: 50%;
-
 }
 
 .cross {
-    padding: 2px;
     color: red;
     border: 1px solid red;
-    border-radius: 50%;
 }
 
-li ul {
-    padding: 0;
-}
-
-h2 {
-    margin: 5px 0 15px;
-}
